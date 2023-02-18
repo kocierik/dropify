@@ -10,7 +10,7 @@ module.exports = {
         plugins: [
           tailwindcss({
             purge: ['./src/**/*.tsx'],
-            darkMode: false, // or 'media' or 'class'
+            darkMode: 'media', // or 'media' or 'class'
             theme: {
               extend: {},
             },
@@ -22,6 +22,7 @@ module.exports = {
           autoprefixer(),
         ],
         inject: true,
+        extract: false,
         // only write out CSS for the first bundle (avoids pointless extra files):
         extract: !!options.writeMeta,
       })
