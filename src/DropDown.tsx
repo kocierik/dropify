@@ -3,18 +3,19 @@ import { useState } from 'react'
 import ItemDropdown from './ItemDropdown'
 
 const DropDown = (props: {
+  label: string
   list: string[]
   filter: string[]
   setFilter: React.Dispatch<React.SetStateAction<string[]>>
 }) => {
   const [isList, setIsList] = useState(false)
   return (
-    <div className="  duration-300 z-10">
+    <div className="z-10">
       <button
         onClick={() => setIsList(!isList)}
         className="w-64 p-4 shadow rounded bg-white text-sm font-medium leading-none text-gray-800 flex items-center justify-between cursor-pointer"
       >
-        Filter
+        {props.label}
         <div>
           {isList ? (
             <div>

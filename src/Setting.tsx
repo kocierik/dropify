@@ -1,12 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
+import { Isetting } from './types'
 
-export interface IsettingInfo {
-  name: string
-  setting: (...args: string[]) => void
-}
 
-const Setting = (props: { settingInfoDesk: IsettingInfo[] }) => {
+const Setting = (props: { settingInfoDesk: Isetting[] }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -52,11 +49,11 @@ const Setting = (props: { settingInfoDesk: IsettingInfo[] }) => {
                 >
                   <button
                     onClick={() => {
-                      item.setting()
+                      item.handler()
                       setIsOpen(!isOpen)
                     }}
                   >
-                    {item.name}
+                    {item.label}
                   </button>
                 </span>
               )
