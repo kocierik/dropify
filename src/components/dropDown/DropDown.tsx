@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import ItemDropdown from './ItemDropdown'
+import "../../tailwind.css"
 
 const DropDown = (props: {
   label: string

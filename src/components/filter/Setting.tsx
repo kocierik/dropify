@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Isetting } from '../../types'
-
+import "../../tailwind.css"
 
 const Setting = (props: { settingInfoDesk: Isetting[] }) => {
   const [isOpen, setIsOpen] = useState(false)

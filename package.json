@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "dropdown-menu",
+  "name": "@kocierik/dropdown-menu",
   "author": "kocierik",
   "module": "dist/dropdown-menu.esm.js",
   "size-limit": [
