@@ -3,6 +3,10 @@ export interface Isetting {
   handler: (...args: string[]) => void
 }
 
+export interface IsettingList {
+  settings: Isetting[];
+}
+
 export interface IdropDown {
   label: string,
   list: string[],
