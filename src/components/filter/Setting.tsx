@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Isetting } from '../../types'
 import "../../tailwind.css"
 
-const Setting = (props: { settingInfoDesk: Isetting[] }) => {
+export const Setting = (props: { settingInfoDesk: Isetting[] }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -64,4 +64,3 @@ const Setting = (props: { settingInfoDesk: Isetting[] }) => {
   )
 }
 
-export default Setting

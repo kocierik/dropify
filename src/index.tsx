@@ -1,6 +1,5 @@
 // import * as React from 'react'
 // import DropDown from './components/dropDown/DropDown'
-import "./tailwind.css"
 // import Setting from './components/filter/Setting'
 
 // export const Thing = () => {

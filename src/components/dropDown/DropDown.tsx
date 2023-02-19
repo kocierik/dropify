@@ -3,7 +3,7 @@ import { useState } from 'react'
 import ItemDropdown from './ItemDropdown'
 import "../../tailwind.css"
 
-const DropDown = (props: {
+export const DropDown = (props: {
   label: string
   list: string[]
   filter: string[]
@@ -54,4 +54,3 @@ const DropDown = (props: {
     </div>
   )
 }
-export default DropDown
