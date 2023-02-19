@@ -2,13 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 import ItemDropdown from './ItemDropdown'
 import "../../tailwind.css"
+import { IdropDown } from '../../types'
 
-export const DropDown = (props: {
-  label: string
-  list: string[]
-  filter: string[]
-  setFilter: React.Dispatch<React.SetStateAction<string[]>>
-}) => {
+
+export const DropDown = (props: IdropDown) => {
   const [isList, setIsList] = useState(false)
   return (
     <div className="z-10">
