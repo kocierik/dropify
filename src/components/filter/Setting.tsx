@@ -37,7 +37,7 @@ export const Setting = (props: Isetting[]) => {
             aria-labelledby="user-menu-button"
             tabIndex={-1}
           >
-            {props.settingInfoDesk?.map((item, i) => {
+            {props?.map((item, i) => {
               return (
                 <span
                   key={i}
