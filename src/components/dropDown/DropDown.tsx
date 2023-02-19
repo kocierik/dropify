@@ -35,7 +35,7 @@ const DropDown = (props: {
       {isList && (
         <div className=" absolute w-64 mt-2 p-4 bg-white shadow rounded">
           {props.list.map((item, i) => {
-            return <ItemDropdown game={item} key={i} filter={props.filter} setFilter={props.setFilter} />
+            return <ItemDropdown label={item} key={i} filter={props.filter} setFilter={props.setFilter} />
           })}
           <button
             onClick={() => setIsList(!isList)}

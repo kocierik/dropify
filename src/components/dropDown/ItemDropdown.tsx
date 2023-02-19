@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const ItemDropdown = (props: {
-  game: string
+  label: string
   filter: string[]
   setFilter: React.Dispatch<React.SetStateAction<string[]>>
 }) => {
@@ -9,9 +9,9 @@ const ItemDropdown = (props: {
   const getIsChecked = async () => {
     setIsChecked(!isChecked)
     if (isChecked) {
-      props.setFilter([...props.filter, props.game])
+      props.setFilter([...props.filter, props.label])
     } else {
-      const val = props.filter.filter((item) => item !== props.game)
+      const val = props.filter.filter((item) => item !== props.label)
       props.setFilter(val)
     }
   }
@@ -44,7 +44,7 @@ const ItemDropdown = (props: {
                 </svg>
               </div>
             </div>
-            <p className="text-sm leading-normal ml-2 text-gray-800">{props.game}</p>
+            <p className="text-sm leading-normal ml-2 text-gray-800">{props.label}</p>
           </div>
         </div>
       </div>
