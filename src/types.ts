@@ -9,7 +9,7 @@ export interface IsettingList {
 
 export interface IdropDown {
   label: string,
-  // list: string[],
+  list: string[],
   filter: string[],
   setFilter: React.Dispatch<React.SetStateAction<string[]>>
 }

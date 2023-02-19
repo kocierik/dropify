@@ -32,7 +32,7 @@ export const DropDown = (props: IdropDown) => {
       </button>
       {isList && (
         <div className=" absolute w-64 mt-2 p-4 bg-white shadow rounded">
-          {props.filter.map((item, i) => {
+          {props.list.map((item, i) => {
             return <ItemDropdown label={item} key={i} filter={props.filter} setFilter={props.setFilter} />
           })}
           <button
