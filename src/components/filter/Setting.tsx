@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Isetting } from '../../types'
 import "../../tailwind.css"
 
-export const Setting = (props: { settingInfoDesk: Isetting[] }) => {
+export const Setting = (props: Isetting[]) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
