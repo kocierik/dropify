@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import DropDown from '../src/components/dropDown/DropDown'
+import { DropDown } from '../src/components/dropDown/DropDown'
 
 describe('it', () => {
   it('renders without crashing', () => {
