@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
-import { Isetting } from '../../types'
+import { IsettingList } from '../../types'
 import "../../tailwind.css"
 
-export const Setting = (props: Isetting[]) => {
+export const Setting = (setting: IsettingList) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -37,7 +37,7 @@ export const Setting = (props: Isetting[]) => {
             aria-labelledby="user-menu-button"
             tabIndex={-1}
           >
-            {props?.map((item, i) => {
+            {setting?.settings?.map((item, i) => {
               return (
                 <span
                   key={i}
