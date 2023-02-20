@@ -78,6 +78,7 @@ const App = () => {
 
 ```ts
 import { Setting } from '@kocierik/dropdown-menu';
+
 const App = () => {
   const setting: Isetting[] = [{
     label: 'helper',
@@ -112,8 +113,10 @@ const App = () => {
 
 ## 🔧 Roadmap
 
+- [] Add more components
 - [] Add more style
 - [] Add animation
+
 
 ---
 
