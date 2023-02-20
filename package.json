@@ -33,16 +33,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@kocierik/dropdown-menu",
+  "name": "@kocierik/dropify",
   "author": "kocierik",
-  "module": "dist/dropdown-menu.esm.js",
+  "module": "dist/dropify.esm.js",
   "size-limit": [
     {
-      "path": "dist/dropdown-menu.cjs.production.min.js",
+      "path": "dist/dropify.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/dropdown-menu.esm.js",
+      "path": "dist/dropify.esm.js",
       "limit": "10 KB"
     }
   ],

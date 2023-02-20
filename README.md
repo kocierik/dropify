@@ -11,8 +11,8 @@
 
 
 <h3 align="center">
- <img alt="GitHub" src="https://img.shields.io/npm/dm/@kocierik/dropdown-menu" />
- <!--  <img alt="size" src="https://img.shields.io/bundlephobia/minzip/@kocierik/dropdown-menu/0.1.8" /> -->
+ <img alt="GitHub" src="https://img.shields.io/npm/dm/@kocierik/dropify" />
+ <!--  <img alt="size" src="https://img.shields.io/bundlephobia/minzip/@kocierik/dropify/0.1.8" /> -->
   <img alt="GitHub" src="https://img.shields.io/npm/l/@koale/useworker" />
  <img src="https://camo.githubusercontent.com/6ef0a300e96da21e04d4d45bf54285202674498c/68747470733a2f2f62616467656e2e6e65742f62616467652f547970655363726970742f537570706f7274" alt="TypeScript Support" title="TypeScript Support" data-canonical-src="https://badgen.net/badge/TypeScript/Support" style="max-width:100%;">
 </h3>
@@ -32,7 +32,7 @@
 - **@latest**
 
 ```bash
-npm install --save @kocierik/dropdown-menu
+npm install --save @kocierik/dropify
 ```
 
 ---
@@ -40,7 +40,7 @@ npm install --save @kocierik/dropdown-menu
 ## 🔨 Import
 
 ```tsx
-import { DropDown, Setting } from "@kocierik/dropdown-menu";
+import { DropDown, Setting } from "@kocierik/dropify";
 ```
 
 ---
@@ -53,7 +53,7 @@ import { DropDown, Setting } from "@kocierik/dropdown-menu";
 ## 🐾 Usage DropDown 
 
 ```ts
-import { DropDown } from '@kocierik/dropdown-menu';
+import { DropDown } from '@kocierik/dropify';
 
 const App = () => {
   const list = ['a', 'b', 'c', 'd']
@@ -77,7 +77,7 @@ const App = () => {
 ## 🐾 Usage Setting 
 
 ```ts
-import { Setting } from '@kocierik/dropdown-menu';
+import { Setting } from '@kocierik/dropify';
 
 const App = () => {
   const setting: Isetting[] = [{
@@ -122,7 +122,7 @@ const App = () => {
 
 ## 🌏 Contribute? Bug? New Feature?
 
-The library is experimental so if you find a **bug** or would like to request a new **feature**, open an [issue](https://github.com/kocierik/dropdown-menu/issues/new)
+The library is experimental so if you find a **bug** or would like to request a new **feature**, open an [issue](https://github.com/kocierik/dropify/issues/new)
 
 ---
 
@@ -134,7 +134,7 @@ The library is experimental so if you find a **bug** or would like to request a 
 
 ## 📜 License
 
-[MIT](https://github.com/kocierik/dropdown-menu/blob/main/LICENSE)
+[MIT](https://github.com/kocierik/dropify/blob/main/LICENSE)
 
 ---
 
